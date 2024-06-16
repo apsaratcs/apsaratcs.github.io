@@ -2,50 +2,76 @@
 <html lang="en">
 
 <head>
+    <!-- Character encoding for the document -->
     <meta charset="UTF-8">
+    <!-- Document title -->
     <title>Apsara Rajput</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- Responsive design viewport setting -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for SEO and authorship -->
     <meta name="author" content="Apsara Rajput">
     <meta name="designer" content="Apsara Rajput">
     <meta name="owner" content="Apsara Rajput">
     <meta name="web-app-capable" content="yes">
     <meta name="theme-color" content="black">
     <meta name="keywords" content="Apsara Rajput, Apsara, Sanatani Apsara, Apsara Techie">
-    <meta name="description"
-        content="Explore the intersection of technology and Sanatan Dharma with Apsara Rajput. Learn JavaScript, C++, and delve into Vedas, Puranas, and Sanatan scriptures. Embrace nature and aesthetic beauty.">
+    <meta name="description" content="Explore the intersection of technology and Sanatan Dharma with Apsara Rajput. Learn JavaScript, C++, and delve into Vedas, Puranas, and Sanatan scriptures. Embrace nature and aesthetic beauty.">
     <meta name="robots" content="index, follow"> <!-- Specify search engine behavior -->
     <meta name="format-detection" content="telephone=no"> <!-- Disable auto-detection of phone numbers -->
     <meta name="generator" content="VS Code"> <!-- Specify the software used to generate the document -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Force Internet Explorer to use the latest rendering engine -->
-    <meta property="og:title" content="Apsara Rajput"> <!-- Open Graph title -->
-    <meta property="og:type" content="website"> <!-- Open Graph type -->
-    <meta property="og:url" content="https://apsaratcs.github.io"> <!-- Open Graph URL -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Force Internet Explorer to use the latest rendering engine -->
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Apsara Rajput"> 
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content="https://apsaratcs.github.io"> 
+    <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="src/css/main.css" type="text/css">
 </head>
 
 <body id="apsara_body">
+    <!-- Header section -->
     <header id="apsara_header">
-        <h1 id="apsara_title"></h1>
+        <h1 id="apsara_title" title="Apsara Rajput">Apsara</h1> <!-- Add meaningful content to the title -->
 
+        <!-- Menu icon for navigation -->
         <div id="apsara_menu" onclick="manageNav()">
             <hr />
             <hr />
             <hr />
         </div>
     </header>
+    
+    <!-- Navigation menu -->
     <nav id="apsara_nav" class="apsara_nav">
-        <p onclick="navigate('./home/about/')">About</p>
-        <p onclick="manageNav()">Close</p>
+        <p onclick="navigate('./home/about/')">About</p> <!-- Navigation link -->
+        <p onclick="manageNav()">Close</p> <!-- Close navigation -->
     </nav>
+    
+    <!-- Main content area -->
     <main id="apsara_main">
+        <!-- Article section -->
         <article id="apsara_article">
-            <section class="section section_1"></section>
+            <section class="section section_1" id="section">
+                <!-- Add content here -->
+            </section>
         </article>
-        <aside id="apsara_aside"></aside>
+        
+        <!-- Aside section for additional content -->
+        <aside id="apsara_aside">
+            <div class="social_media">
+                <a href="https://x.com/apsaratcs" target="_blank" rel="noopener noreferrer">Twitter</a> <!-- External link to Twitter with security enhancements -->
+            </div>
+        </aside>
     </main>
-    <footer id="apsara_footer"></footer>
-    <script src="src/js/app.js" async></script>
+    
+    <!-- Footer section -->
+    <footer id="apsara_footer">
+        <!-- Add footer content here -->
+    </footer>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="src/js/app.js" type="module"></script>
+    <script src="src/js/main.js" async></script>
 </body>
 
 </html>
