@@ -63,13 +63,14 @@ class Apsara {
     }
 
     /**
-     * Creates a paragraph element with the specified text content.
+     * Creates a paragraph element with the specified text content and applies CSS style.
      * @param {string} text - The text content for the paragraph.
      * @returns {HTMLElement} - The created paragraph element.
      */
     static createTextElement(text) {
         const paragraph = document.createElement("p");
         paragraph.textContent = text;
+        paragraph.classList.add('apsara-paragraph'); // Apply CSS class
         return paragraph;
     }
 
@@ -102,6 +103,19 @@ class Apsara {
      */
     static createDivElement() {
         return document.createElement("div");
+    }
+
+    /**
+     * Inbuilt CSS for paragraph (35px line height).
+     */
+    static applyParagraphStyle() {
+        const style = document.createElement('style');
+        style.textContent = `
+            .apsara-paragraph {
+                line-height: 35px;
+            }
+        `;
+        document.head.appendChild(style);
     }
 }
 

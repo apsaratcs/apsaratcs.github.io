@@ -7,105 +7,169 @@
 
 /* Body styling */
 body {
-    min-height: 100vh; /* Ensure body covers the full height of the viewport */
-    width: 100%; /* Full width of the viewport */
-    background-color: rgb(0, 0, 0); /* Set background to black */
-    color: white; /* Text color white for better contrast */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Modern font stack for better readability */
+    min-height: 100vh;
+    /* Ensure body covers the full height of the viewport */
+    width: 100%;
+    /* Full width of the viewport */
+    background-color: rgb(0, 0, 0);
+    /* Set background to black */
+    color: white;
+    /* Text color white for better contrast */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Modern font stack for better readability */
 }
 
 /* Header styling */
 #apsara_header {
-    height: 50px; /* Fixed height for header */
-    width: 100%; /* Full width of the viewport */
-    display: flex; /* Flexbox for aligning items */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between items */
-    background-color: red; /* Red background for header */
+    height: 50px;
+    /* Fixed height for header */
+    width: 100%;
+    /* Full width of the viewport */
+    display: flex;
+    /* Flexbox for aligning items */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space between items */
+    background-color: red;
+    /* Red background for header */
 }
 
-#apsara_title { font-size: 25px; text-indent: 10px;}
+#apsara_title {
+    font-size: 25px;
+    text-indent: 10px;
+}
 
 /* Menu icon styling */
 #apsara_menu {
-    display: flex; /* Flexbox for layout */
-    justify-content: center; /* Center items horizontally */
-    flex-direction: column; /* Stack items vertically */
-    margin-right: 15px; /* Margin on the right */
+    display: flex;
+    /* Flexbox for layout */
+    justify-content: center;
+    /* Center items horizontally */
+    flex-direction: column;
+    /* Stack items vertically */
+    margin-right: 15px;
+    /* Margin on the right */
 }
 
 /* Styling for menu icon lines */
 #apsara_menu hr {
-    width: 20px; /* Set width of lines */
-    border: none; /* Remove default border */
-    margin: 2px; /* Space between lines */
-    height: 3px; /* Line height */
-    background-color: black; /* Line color */
+    width: 20px;
+    /* Set width of lines */
+    border: none;
+    /* Remove default border */
+    margin: 2px;
+    /* Space between lines */
+    height: 3px;
+    /* Line height */
+    background-color: black;
+    /* Line color */
 }
 
 /* Navigation styling */
 #apsara_nav {
-    position: fixed; /* Fixed position for sidebar */
+    position: fixed;
+    /* Fixed position for sidebar */
     top: 0;
     left: 0;
-    min-height: 100vh; /* Full viewport height */
-    width: 0%; /* Initial width */
-    overflow-x: hidden; /* Hide horizontal overflow */
-    display: flex; /* Flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    flex-direction: column; /* Stack items vertically */
-    background-color: black; /* Background color */
+    min-height: 100vh;
+    /* Full viewport height */
+    width: 0%;
+    /* Initial width */
+    overflow-x: hidden;
+    /* Hide horizontal overflow */
+    display: flex;
+    /* Flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+    flex-direction: column;
+    /* Stack items vertically */
+    background-color: black;
+    /* Background color */
 }
 
 /* Navigation items styling */
-#apsara_nav > p {
-    display: flex; /* Flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    height: 40px; /* Fixed height */
-    width: 100px; /* Fixed width */
-    background-color: red; /* Background color */
-    color: black; /* Text color */
-    margin: 5px; /* Margin around items */
+#apsara_nav>p {
+    display: flex;
+    /* Flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+    height: 40px;
+    /* Fixed height */
+    width: 100px;
+    /* Fixed width */
+    background-color: red;
+    /* Background color */
+    color: black;
+    /* Text color */
+    margin: 5px;
+    /* Margin around items */
 }
 
 /* Main content styling */
 #apsara_main {
-    display: flex; /* Flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: flex-start; /* Align items to the start horizontally */
-    flex-direction: column; /* Stack items vertically */
-    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    /* Flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: flex-start;
+    /* Align items to the start horizontally */
+    flex-direction: column;
+    /* Stack items vertically */
+    min-height: 100vh;
+    /* Full viewport height */
 }
 
 /* Article section styling */
 #apsara_article {
-    display: flex; /* Flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
+    display: flex;
+    /* Flexbox for layout */
+    flex-direction: column;
+    /* Stack items vertically */
 }
 
 /* Aside section styling */
 #apsara_aside {
-    display: flex; /* Flexbox for layout */
+    display: flex;
+    /* Flexbox for layout */
 }
 
 /* Footer styling */
 footer {
-    height: 50px; /* Fixed height */
-    width: 100%; /* Full width of the viewport */
-    background-color: red; /* Background color */
-    color: white; /* Text color */
+    height: 50px;
+    /* Fixed height */
+    width: 100%;
+    /* Full width of the viewport */
+    background-color: red;
+    /* Background color */
+    color: white;
+    /* Text color */
 }
 
 /* Link styling for unvisited links */
 a:link {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
 }
 
 /* Link styling for visited links */
 a:visited {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.section {
+    padding: 10px;
+}
+
+.apsara-paragraph {
+    line-height: 30px;
 }
